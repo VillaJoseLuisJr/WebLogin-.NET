@@ -5,7 +5,7 @@ namespace WebLogin.Data{
 
     public class WebDBContext : DbContext
     {
-        public WebDBContext(DbContextOptions<WebDBContext> options)
+        public WebDBContext(DbContextOptions<WebDBContext> options) : base(options)
         {
 
         }
