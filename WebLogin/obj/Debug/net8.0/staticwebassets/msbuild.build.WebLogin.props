@@ -1,3 +1,7 @@
 ﻿<Project>
+<<<<<<< HEAD
+=======
+  <Import Project="Microsoft.AspNetCore.StaticWebAssetEndpoints.props" />
+>>>>>>> 32ca4f151389de8757854818dcdafe3ee1ff0c51
   <Import Project="Microsoft.AspNetCore.StaticWebAssets.props" />
 </Project>

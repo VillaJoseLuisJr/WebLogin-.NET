@@ -1,7 +1,8 @@
 using Microsoft.EntityFrameworkCore;
 using WebLogin.Models;
 
-namespace WebLogin.Data{
+namespace WebLogin.Data
+{
 
     public class WebDBContext : DbContext
     {
