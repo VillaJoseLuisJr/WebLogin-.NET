@@ -18,6 +18,14 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\Cosas-Programacion\Projects\Csharp\Proyecto-Servidor\WebLogin
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/Cosas-Programacion/Projects/Csharp/Proyecto-Servidor/WebLogin/Views/Acceso/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjZXNvXExvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Cosas-Programacion/Projects/Csharp/Proyecto-Servidor/WebLogin/Views/Acceso/Registrarse.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjZXNvXFJlZ2lzdHJhcnNlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Cosas-Programacion/Projects/Csharp/Proyecto-Servidor/WebLogin/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
