@@ -2152,19 +2152,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\CatrielJose\\.nuget\\packages\\": {}
+    "C:\\Users\\junio\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\Csharp\\WebLogin\\WebLogin-.NET\\WebLogin\\WebLogin.csproj",
+      "projectUniqueName": "D:\\Cosas-Programacion\\Projects\\Csharp\\Proyecto-Servidor\\WebLogin\\WebLogin.csproj",
       "projectName": "WebLogin",
-      "projectPath": "D:\\Projects\\Csharp\\WebLogin\\WebLogin-.NET\\WebLogin\\WebLogin.csproj",
-      "packagesPath": "C:\\Users\\CatrielJose\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\Csharp\\WebLogin\\WebLogin-.NET\\WebLogin\\obj\\",
+      "projectPath": "D:\\Cosas-Programacion\\Projects\\Csharp\\Proyecto-Servidor\\WebLogin\\WebLogin.csproj",
+      "packagesPath": "C:\\Users\\junio\\.nuget\\packages\\",
+      "outputPath": "D:\\Cosas-Programacion\\Projects\\Csharp\\Proyecto-Servidor\\WebLogin\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\CatrielJose\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\junio\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -2187,8 +2187,7 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      },
-      "SdkAnalysisLevel": "9.0.200"
+      }
     },
     "frameworks": {
       "net8.0": {
@@ -2220,24 +2219,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[8.0.15, 8.0.15]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[8.0.15, 8.0.15]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[8.0.15, 8.0.15]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[8.0.15, 8.0.15]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -2246,8 +2227,16 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.410/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file D:\\Cosas-Programacion\\Projects\\Csharp\\Proyecto-Servidor\\WebLogin\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
