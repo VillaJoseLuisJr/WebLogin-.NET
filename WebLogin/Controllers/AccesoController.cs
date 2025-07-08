@@ -6,6 +6,10 @@ using Microsoft.EntityFrameworkCore;
 using WebLogin.ViewModels;
 using System.Threading.Tasks;
 
+using System.Security.Claims;
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authentication.Cookies;
+
 namespace WebLogin.Controllers
 {
     public class AccesoController : Controller
@@ -51,6 +55,11 @@ namespace WebLogin.Controllers
         [HttpGet]
         public IActionResult Login()
         {
+            if (User.Identity.IsAuthenticated) return RedirectToAction("Index", "Home");
+            {
+
+            }
+
             return View();
         }
 
@@ -67,6 +76,23 @@ namespace WebLogin.Controllers
                 ViewData["Mensaje"] = "No se encontraron coincidencias, XD";
                 return View();
             }
+
+            List<Claim> claims = new List<Claim>()
+            {
+                new Claim(ClaimTypes.Name, usuario_encontrado.NombreCompleto)
+            };
+
+            ClaimsIdentity claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
+            AuthenticationProperties properties = new AuthenticationProperties()
+            {
+                AllowRefresh = true,
+            };
+
+            await HttpContext.SignInAsync(
+                CookieAuthenticationDefaults.AuthenticationScheme,
+                new ClaimsPrincipal(claimsIdentity),
+                properties
+            );
 
             return RedirectToAction("Index", "Home");
         }
